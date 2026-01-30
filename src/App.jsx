@@ -3,6 +3,10 @@ import { useState } from "react";
 import Hello from './componentes/Hello.jsx'
 import Counter from './componentes/counter.jsx'
 import Input from './componentes/input.jsx'
+import State from './componentes/State.jsx'
+import Conteffect from './componentes/contadoreffect.jsx'
+import Title from './componentes/title.jsx'
+import Card from './componentes/testprops.jsx'
 
 function App() {
   const [contador, setContador] = useState(0)
@@ -24,7 +28,15 @@ function App() {
         <Counter counter={counter} setcounter={setcounter}/>
 
         <Input/>
+
+        <State/>
         
+
+        <Conteffect/>
+
+        <Title/>
+
+        <Card titulo = 'isso foi feito com props'/>
         </div>
 
 
